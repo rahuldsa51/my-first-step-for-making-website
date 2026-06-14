@@ -3,25 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice set of ch 2</title>
+    <title>Forms-Lets Learn</title>
+
 </head>
 <body>
-    <h1> Myself </h1>
-    <hr>
-    <h2> about my life </h2>
-    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam laudantium nostrum, sunt, numquam delectus distinctio iste maiores aperiam porro nemo in dicta incidunt repudiandae pariatur officiis maxime totam assumenda a alias saepe?</p>
-    <hr>
-    <h3> My school life</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda delectus, maiores obcaecati esse facilis aut dignissimos ab, dolores voluptatem dolorem consequuntur quisquam quia.</p>
-    <hr>
-    <h4> about my future life in korea</h4>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sapiente ea. Assumenda, aut?</p>
-    <br>
-   <img src="https://cdn.pixabay.com/photo/2020/11/18/10/21/myself-5754877_1280.jpg"alt="error of myname" width="626px">
-   <br>
-   <img src="https://tse1.mm.bing.net/th/id/OIP.32nsHfXfHUCfDQIELtKQsgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"alt=" error image">
-<br>
-   <img src="https://thumbs.dreamstime.com/b/love-myself-25558018.jpg?w=576"alt=" error heart">
-   <p>C+O<sub>2</sub>-->CO2</p>
+    <h1>Form to apply for post</h1>
+    <form action="post" >
+        <div>
+            
+        <label for="username"> enter your Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your  username"autofocus>
+        </div>
+        <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea id="comment" name="comment" rows="10" cols="60">
+                
+            </textarea>
+        </div>
+        <div>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="apple">Banana</option>
+                <option value="apple">Cherry</option>
+            </select>
+        </div>
+    </form>
+    
 </body>
-</html
+</html>
